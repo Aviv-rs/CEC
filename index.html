@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>דף סרטון</title>
+  </head>
+  <body>
+    <main>
+      <iframe
+        src="https://www.youtube.com/embed/AIRc30w6iVc"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+
+      <div id="actionsSection">
+        <button class="h5 icon">
+          <img src="assets/icons/icon_plus.svg" alt="">
+        </button>
+        <button class="h5 icon">
+          <img src="assets/icons/icon_forward.svg" alt="">
+        </button>
+        <button class="h5 icon">
+          <img src="assets/icons/icon_dislike.svg" alt="דיסלייק">
+          <span class="dislikeCount" data-count=true>???</span>
+        </button>
+        <button class="h5 icon">
+          <img src="assets/icons/icon_like.svg" alt="לייק">
+          <span class="likeCount" data-count=true>???</span>
+        </button>
+        <span class="h5 views">
+          <span class="viewCount" data-count=true>???</span>
+          צפיות
+        </span>
+      </div>
+
+      <div id="infoSection">
+        <h6 class="tag">#GIT</h6>
+        <h2 id="videoTitle">גיט מא'-ת': צעדים ראשונים בגיט - Init, Add, Commit</h2>
+
+        <a id="linkPDF" href="#">
+          <span class="icon">
+            <img src="assets/icons/icon_download_green.svg" alt="">
+          </span>
+          <span>לשימושכם, תוכן הסרטון מאורגן גם בקובץ PDF</span>
+        </a>
+      </div>
+
+      <a class="h4 bold" id="resourceLink" href="#">
+        קישור להדגמה מהסרטון
+      </a>
+
+      <div id="commentsSection">
+        <h3>
+          <span>כדאי לדעת:</span>
+        </h3>
+        <ul id="comments">
+          <li class="comment">
+            <div class="iconProfile icon">
+              <img src="assets/icons/icon_profile_1.png" alt="">
+            </div>
+            <div class="left">
+              <p class="content">כזאת מטלת בית לא ראיתי בחיים, וואו! לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט מוסן מנת. קולורס מונפרד אדנדום 
+              </p>
+              
+              <div class="actions">
+                <button class="h5 icon">
+                  <img src="assets/icons/icon_dislike.svg" alt="">
+                  <span class="dislikeCount" data-count=true>???</span>
+                </button>
+                <button class="h5 icon">
+                  <img src="assets/icons/icon_like.svg" alt="">
+                  <span class="likeCount" data-count=true>???</span>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="comment">
+            <div class="iconProfile icon">
+              <img src="assets/icons/icon_profile_2.png" alt="">
+            </div>
+            <div class="left">
+              <p class="content">גם אני רוצה להגיב-תגובה קצרה שלא מצריכה כפתור פתיחה.
+              </p>
+              
+              <div class="actions">
+                <button class="h5 icon">
+                  <img src="assets/icons/icon_dislike.svg" alt="">
+                  <span class="dislikeCount" data-count=true>???</span>
+                </button>
+                <button class="h5 icon">
+                  <img src="assets/icons/icon_like.svg" alt="">
+                  <span class="likeCount" data-count=true>???</span>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
+
+<script type="module" src="scripts/index.js"></script>
